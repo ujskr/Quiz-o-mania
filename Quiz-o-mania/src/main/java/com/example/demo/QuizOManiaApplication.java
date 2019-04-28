@@ -9,5 +9,7 @@ public class QuizOManiaApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(QuizOManiaApplication.class, args);
 	}
-
+	public void check() {
+		System.out.println("Testing");
+	}
 }
